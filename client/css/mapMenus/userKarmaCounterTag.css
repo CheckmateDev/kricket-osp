@@ -1,0 +1,23 @@
+#viewKarmaCounterTag{
+		top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 5;
+	position: absolute;
+
+}
+
+#viewKarmaCounterTagContainer{
+	height:calc(100vh - 0px);
+	width:100%;
+	z-index: 6;
+	position: absolute;
+	top:0px;
+	left: 0px;
+}
+
+#viewKarmaCounterTag > viewKarmaCounterContainer{
+
+	height:100%;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12005) - http://www.bohemiancoding.com/sketch -->
+    <title>settings-cancel-btn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Kricket" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="settings-cancel-btn" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)">
+            <circle id="Oval-98-Copy" stroke="#FFFFFF" sketch:type="MSShapeGroup" cx="15" cy="15" r="15"></circle>
+            <path d="M13.3033009,14.9747462 L8.34970998,10.0211553 C8.15326473,9.82471005 8.15874556,9.51269976 8.35456814,9.31687719 L9.11015305,8.56129228 C9.30797036,8.36347496 9.62129168,8.36329463 9.81443117,8.55643412 L14.768022,13.510025 L19.36708,8.91096709 C19.5609843,8.71706275 19.8751112,8.7176192 20.069202,8.91170999 L20.8815659,9.72407388 C21.0708423,9.91335032 21.0759893,10.2325154 20.8823088,10.4261959 L16.2832509,15.0252538 L21.2368417,19.9788447 C21.433287,20.1752899 21.4278062,20.4873002 21.2319836,20.6831228 L20.4763987,21.4387077 C20.2785814,21.636525 19.96526,21.6367054 19.7721206,21.4435659 L14.8185297,16.489975 L9.86591838,21.4425863 C9.67201404,21.6364906 9.35788714,21.6359342 9.16379635,21.4418434 L8.35143246,20.6294795 C8.16215603,20.4402031 8.15700907,20.121038 8.35068957,19.9273575 L13.3033009,14.9747462 Z" id="Left-Cross-Copy-2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

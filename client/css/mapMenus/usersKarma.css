@@ -1,0 +1,110 @@
+/* usersKarma.css */
+
+#karmaView {
+  font-color: #23A96E;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 30%;
+  max-width: 65px;
+  height: 100%;
+  z-index: 3;
+  overflow: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.menu-wide-left {
+  position: absolute;
+  top: 0px;
+  width: calc(100% - 65px);
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.menu-wide-right {
+  position: absolute;
+  width: calc(100% - 65px);
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+}
+#userKarmaMini {
+  font-color: #23A96E;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 15%;
+  height: 100%;
+  z-index: 1000;
+  overflow: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  position: absolute;
+}
+#karmaView::-webkit-scrollbar {
+  display: none;
+}
+.karma-buttons>img {
+  position: fixed;
+  top: 35px;
+  z-index: 1000;
+}
+#btn-my-tags, #btn-followed-tags {
+  background-color: rgb(31, 195, 123);
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+.contact-h1 {
+  font-family: 'OpenSans';
+  display: inline-block;
+  width: 55%;
+  font-size: 17px;
+  color: #fff;
+  line-height: 36px;
+  text-align: left;
+}
+.contact-h2 {
+  font-family: 'OpenSans';
+  font-size: 12px;
+  color: #fff;
+  line-height: 15px;
+  text-align: left;
+  display: block;
+}
+.container {
+  padding: 0px;
+}
+.karmabuttons {
+  width: 40px;
+  margin: 10px 45px;
+  display: inline-block;
+  float: left;
+}
+.my-tags-counter, .my-followed-tags-counter {
+  font-family: 'OpenSans';
+  font-size: 50px;
+  font-weight: normal;
+  display: inline;
+  color: #fff;
+  line-height: 70px;
+  position: relative;
+  display: block;
+}
+.my-tags-h1, .my-followed-tags-h1 {
+  font-family: 'OpenSans';
+  display: inline;
+  width: 55%;
+  font-size: 15px;
+  color: #fff;
+  line-height: 36px;
+  text-align: left;
+  position: relative;
+}
+.my-tags-h2, .my-followed-tags-h2 {
+  font-family: 'OpenSans';
+  font-size: 12px;
+  color: #23A96E;
+  line-height: 15px;
+  display: inline-block;
+  position: relative;
+}

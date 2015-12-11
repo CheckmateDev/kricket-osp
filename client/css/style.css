@@ -1,0 +1,436 @@
+/* Global */
+* {
+
+	text-decoration: none;
+	outline: none;
+}
+
+*:hover {
+	-webkit-transition: background linear 0.1s;
+	-moz-transition: background linear 0.1s;
+	-o-transition: background linear 0.1s;
+	transition: background linear 0.1s;
+}
+
+
+a:hover {
+	color: #f29c1f;
+	-webkit-transition: color linear 0.1s;
+	-moz-transition: color linear 0.1s;
+	-o-transition: color linear 0.1s;
+	transition: color linear 0.1s;
+}
+
+a img:hover {
+	opacity: 0.7;
+	-webkit-transition: opacity linear 0.1s;
+	-moz-transition: opacity linear 0.1s;
+	-o-transition: opacity linear 0.1s;
+	transition: opacity linear 0.1s;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ol {
+	padding: 0;
+}
+
+div.dark h1 {
+	color: white;
+}
+
+div.dark p {
+	color: #bdbec0;
+}
+
+input.banner-button {
+	width: 200px;
+	height: 60px;
+	color: white;
+	background: rgba(150, 150, 150, 0.2);
+	font-size: 17px;
+	text-transform: uppercase;
+	border: 2px solid white;
+}
+
+input.banner-button:hover {
+	background: #f29c1f;
+	opacity: 1;
+}
+
+input.banner-button:active {
+	background: #d07a0d;
+}
+
+input.orange {
+	padding: 10px 30px;
+	color: white;
+	background: #f29c1f;
+	font-family: 'Avenir-Heavy';
+	font-size: 14px;
+	text-transform: uppercase;
+	border: none;
+}
+
+input.orange:hover {
+	background: #f3ad2f;
+}
+
+input.orange:active {
+	background: #d07a0d;
+}
+
+input.blue {
+	padding: 10px 70px;
+	color: white;
+	background: #489fd8;
+	font-family: 'Avenir-Book';
+	font-size: 22px;
+	border: none;
+}
+
+input.blue:hover {
+	background: #5abffa;
+}
+
+input.blue:active {
+	background: #267cb6;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #040404;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #f7f7f7;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+::-webkit-input-placeholder {
+	color: #bdbec0;
+}
+:-moz-placeholder {
+	color: #bdbec0;
+}
+::-moz-placeholder {
+	color: #bdbec0;
+}
+:-ms-input-placeholder {
+	color: #bdbec0;
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+}
+
+div#mobile-window {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	color: white;
+	background: #333;
+}
+
+
+/* Header */
+
+header {
+	display: inline-block;
+	position: fixed;
+	left: 0;
+	width: 100%;
+	color: #25282f;
+	background: #e8e8e8;
+	z-index: 100;
+}
+
+
+
+header h1 {
+	display: inline-block;
+	margin: 5px;
+	font-family: 'Avenir-Heavy';
+	font-size: 26px;
+	font-weight: normal;
+}
+
+div#current-location {
+	display: inline-block;
+	width: 100%;
+	padding: 10px 0;
+	font-family: 'Avenir-Condensed';
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	background: rgba(13, 132, 201, 0.9);
+}
+
+div#current-location img {
+	position: absolute;
+	right: 10px;
+	max-width: 25px;
+	margin: 3px 10px 0;
+	cursor: pointer;
+}
+
+div#current-location img:hover {
+	opacity: 0.7;
+}
+
+nav {
+	position: absolute;
+	width: 120px;
+	height: 100%;
+	font-family: 'Avenir-Condensed' !important;
+	font-size: 18px;
+	color: white;
+	background: #1e1e1e;
+}
+
+nav ul {
+	margin-top: 45px;
+}
+
+nav ul li {
+	display: block;
+	padding: 15px 0;
+	border-bottom: 1px solid #3b3b3b;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+nav ul li:hover, nav ul li:active {
+	background: #3e3e3e;
+}
+
+nav ul li img {
+	display: block;
+	margin: 0 auto 5px;
+	max-height: 25px;
+}
+
+/* Chirp button -- possibly deprecated
+img#chirp {
+	position: absolute;
+	bottom: 20px;
+	left: 40%;
+	padding: 5px;
+	border: 2px solid white;
+	border-radius: 100%;
+}
+*/
+
+
+/* Map remote */
+
+div.remote {
+	position: absolute;
+	bottom: 15px;
+	left: 5%;
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+div.remote p {
+	margin: 0;
+	padding: 20px 0;
+	font-family: 'Avenir-Condensed';
+	font-size: 26px;
+}
+
+div.remote span {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	padding: 15px 0;
+	font-family: 'Avenir-Heavy';
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #555;
+	background: #eaeaea;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+div.remote span:hover {
+	color: white;
+}
+
+div.remote span:first-of-type {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+	border-right: 2px solid #d2d2d2;
+}
+
+div.remote img {
+	display: block;
+	max-width: 40px;
+	margin: 0 auto 10px;
+}
+
+div.remote#preference span:first-of-type img {
+	margin-top: 21px;
+}
+
+div.remote#preference {
+	background: #298fca;
+}
+
+div.remote#preference span:hover, div.remote#preference span:active {
+	background: #f69c3d;
+}
+
+div.remote#confirm {
+	background: #f49b3d;
+}
+
+div.remote#confirm span:hover, div.remote#confirm span:active  {
+	background: #e5b98a;
+}
+
+div.remote#chirp {
+	background: #ae1f24;
+}
+
+div.remote#chirp span:hover, div.remote#chirp span:active  {
+	background: #d17f82;
+}
+
+div#voting-menu .container {
+	padding: 10px 0;
+}
+
+.vibe-display {
+	position: relative;
+	color: #000;
+	font-size: 1.2em;
+	top: 50%;
+	z-index: 9002;
+	background-color: rgb(255, 255, 255);
+	height: 50px;
+	width: 50px;
+	left: 50%;
+}
+
+/* Acoustics page */
+div#acoustics-panel {
+	display: inline-block;
+	width: 100%;
+	padding: 110px 0 0;
+	color: #333;
+	background: #e2e2e2;
+}
+
+div.graph-container {
+	width: 90%;
+	max-width: 600px;
+	margin: 0 auto 10px;
+	border: 1px solid #bbb;
+}
+
+div.graph-container p {
+	width: 95%;
+	margin: 10px auto;
+	padding: 0 0 5px;
+	font-family: 'Avenir-Condensed';
+	font-size: 24px;
+	border-bottom: 1px solid #aaa;
+}
+
+div.graph {
+	width: 95%;
+	margin: 10px auto;
+	padding: 50px 0;
+	border: 1px solid #bbb;
+}
+
+/* Login/Register */
+.sign-form {
+    background: #fff	;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+
+}
+
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* testing */
+form input {
+	display: inline-block;
+}
+
+/* Vibe Entry */
+
+.chosen-image {
+	width: 100px;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="31px" viewBox="0 0 24 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12005) - http://www.bohemiancoding.com/sketch -->
+    <title>Apple</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="More-Menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="About" sketch:type="MSArtboardGroup" transform="translate(-151.000000, -111.000000)" fill="#FFFFFF">
+            <path d="M158.754,141.596 C160.623,141.519 161.327,140.366 163.584,140.366 C165.842,140.366 166.476,141.596 168.45,141.558 C170.457,141.519 171.731,139.701 172.959,137.873 C174.381,135.758 174.966,133.71 175.001,133.606 C174.957,133.585 171.087,132.076 171.046,127.538 C171.01,123.738 174.091,121.916 174.23,121.824 C172.497,119.247 169.799,118.892 168.838,118.853 C166.543,118.615 164.361,120.228 163.196,120.228 C162.033,120.228 160.235,118.887 158.332,118.922 C155.83,118.96 153.523,120.403 152.234,122.683 C149.636,127.273 151.57,134.075 154.103,137.801 C155.34,139.622 156.816,141.67 158.754,141.596 Z M164.526,113.868 C163.574,114.994 162.74,116.786 162.962,118.511 C164.618,118.643 166.305,117.654 167.335,116.388 C168.362,115.118 169.058,113.353 168.868,111.597 C167.387,111.658 165.591,112.601 164.526,113.868 Z" id="Apple" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,103 @@
+#menuGeneralContainer{
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+/*input.radio:checked{*/
+	/*background-color: green;*/
+/*}*/
+
+#general-settings {
+	color: white;
+}
+
+#general-settings .col-xs-12 {
+	text-align: left;
+	padding: 19px 0;
+	margin-right: -15px;
+    margin-left: 45px;
+    margin-top: 0px;
+
+}
+
+#general-settings form input[type="checkbox"] {
+	position: fixed;
+	outline: none;
+}
+
+#general-settings form input[type="checkbox"]:checked, #general-settings form input[type="checkbox"]:not(:checked) {
+	position: relative;
+	left: 0;
+	border-color: white;
+	border-radius:50%;
+	border-width: 2px;
+	height:30px;
+	width: 30px;
+	padding: 0 5px 0 0;
+	background: url(checkbox.png) no-repeat;
+	outline:none;
+}
+#general-settings form input[type="checkbox"]:checked{
+	background-color: white;
+	box-shadow: inset 0 0 5px black;
+	box-shadow: inset 0 0 0 -1px black;
+	box-shadow: inset 0 1px 0 0 black;
+	box-shadow: inset -1px 0 0 black;
+	box-shadow: inset 0 -1px 0 0 black;
+	box-shadow: inset 0px 0px 2px 1px black;
+	outline: none;
+}
+#general-settings form input[type="radio"]:checked + label::before {
+   background: radial-gradient(circle at center, #1062a4 .6ex, white .7ex);
+   }
+input[type="checkbox"]:checked + label::after {
+   content: '';
+   position: absolute;
+   width: 1.2ex;
+   height: 0.4ex;
+   background: rgba(0, 0, 0, 0);
+   top: 0.9ex;
+   left: 0.4ex;
+   border: 3px solid #1062a4;
+   border-top: none;
+   border-right: none;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+}
+
+#general-settings svg {
+	margin: -4px 0;
+}
+
+#general-settings label {
+	width: 50%;
+	padding-left: 10%;
+	font-size: 13px;
+	font-weight: lighter;
+	text-align: left;
+	text-transform: uppercase;
+	color: white;
+	height: 50px;
+}
+.general-header h3 {
+	background-color: rgba(0, 0, 0, 0.3);
+	color:white;
+	padding-top: 34px;
+	padding-bottom: 35px;
+	margin: -4px 0 6px;
+    font-size: 15px;
+    padding-right: 42px;
+    line-height: 30px;
+}
+.view-tutorial {
+	display:inherit;
+    bottom: 20px;
+    position: absolute;
+    width: 100%;
+    background-color: #151515;
+    color: #fff;
+    font-size: 12pt;
+    padding-right: 74px;
+}

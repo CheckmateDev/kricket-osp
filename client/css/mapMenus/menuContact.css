@@ -1,0 +1,142 @@
+#menuConnecting{
+}
+
+#menuContactContainer{
+  position: absolute;
+  width: calc(100% - 65px);
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  overflow: hidden;
+background-color:rgba(0,0,0,0.5)
+}
+
+#about-bio-header{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  display: inline-block;
+  height: 95px;
+  background-color: #FFF;
+  font-size: 14pt;
+  font-family: 'OpenSans';
+  line-height: 50pt;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 15px;
+  color: #151515;
+
+}
+
+.about-bio, .about-social {
+  margin: 0;
+}
+
+.about-bio > span {
+    position:relative;
+    margin-top: 20px;
+}
+
+.about-bio .social-block{
+  border: 1px solid orange;
+}
+
+.social-block {
+  width:50%;
+  display: inline-block;
+  float: left;
+  top:95px;
+  height: 100px;
+  color: white;
+  padding: 20px 0 0;
+  /*opacity: 0.7;*/
+}
+.contact-footer-container, .contact-footer{
+  display:block;
+  background-color: black;
+  height:65px;
+  width:100%;
+  position:absolute;
+  float:left;
+  color:white;
+  bottom:0px;
+}
+.contact-footer{
+  padding-top: 70px;
+  font-size: 12px;
+}
+.fa-heart {
+  color:red;
+}
+
+.social-block#facebook {
+  background: #3C5B9B;
+}
+
+.social-block#twitter {
+  background: #2DAAE1;
+}
+
+.social-block#apple {
+  background: #A7A9AC;
+}
+
+.social-block#instagram {
+  background: #517FA4;
+}
+
+.social-block#linkedin {
+  background: #0173B2;
+}
+
+.social-block#pinterest {
+  background: #CB2027;
+}
+
+.social-block#youtube {
+  background: #FE3432;
+}
+
+.social-block#behance {
+  background: #2D9AD2;
+}
+
+.social-block#dribbble {
+  background: #F872A3;
+}
+
+.social-block#github {
+  background: #595959;
+}
+
+.social-block#angellist {
+  background: #363435;
+}
+
+.social-block#crunchbase {
+  background: #406765;
+}
+
+.social-block#website {
+  background: #60A8FD;
+}
+
+.social-block#email {
+  background: #1FC37B;
+}
+
+
+#about-bio-footer{
+  height:100vh;
+  top: calc(100vh - 95px);
+  background-color: #60A8FD;
+
+}
+
+.contact-footer-container > svg{
+position: relative;
+z-index: 1;
+height: 65px;
+width:100%;
+}

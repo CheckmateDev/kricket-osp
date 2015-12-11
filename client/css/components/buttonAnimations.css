@@ -1,0 +1,734 @@
+  /*MAP- more Button*/
+
+  #btnMore:hover #leftCircle {
+    animation: bump .5s 1 ease-in-out;
+    -webkit-animation: bump .5s 1 ease-in-out;
+    -moz-animation: bump .5s 1 ease-in-out;
+    -o-animation: bump .5s 1 ease-in-out;
+    -ms-animation: bump .5s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    transition: fill .3s;
+    -moz-transition: fill .3s;
+    -webkit-transition: fill .3s;
+    -o-transition: fill .3s;
+    -ms-transition: fill .3s;
+    fill: #23A96E;
+    -webkit-transform: translateZ(0);
+  }
+  #btnMore:hover #middleCircle {
+    animation: bump .7s 1 ease-in-out;
+    -webkit-animation: bump .7s 1 ease-in-out;
+    -moz-animation: bump .7s 1 ease-in-out;
+    -o-animation: bump .7s 1 ease-in-out;
+    -ms-animation: bump .7s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    transition: fill .3s;
+    -moz-transition: fill .3s;
+    -webkit-transition: fill .3s;
+    -o-transition: fill .3s;
+    -ms-transition: fill .3s;
+    fill: #60A8FD;
+    -webkit-transform: translateZ(0);
+  }
+  #btnMore:hover #rightCircle {
+    animation: bump .9s 1 ease-in-out;
+    -webkit-animation: bump .9s 1 ease-in-out;
+    -moz-animation: bump .9s 1 ease-in-out;
+    -o-animation: bump .9s 1 ease-in-out;
+    -ms-animation: bump .9s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    transition: fill .3s;
+    -moz-transition: fill .3s;
+    -webkit-transition: fill .3s;
+    -o-transition: fill .3s;
+    -ms-transition: fill .3s;
+    fill: #F96C58;
+    -webkit-transform: translateZ(0);
+  }
+  #btnMore:hover #btnMoreOutline {
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+    stroke: #fff;
+    transition: stroke .9s linear;
+    -moz-transition: stroke .9s linear;
+    -webkit-transition: stroke .9s linear;
+    -o-transition: stroke .9s linear;
+    -ms-transition: stroke .9s linear;
+    animation: dash 1.6s ease-in-out;
+    -moz-animation: dash 1.6s ease-in-out;
+    -webkit-animation: dash 1.6s ease-in-out;
+    -o-animation: dash 1.6s ease-in-out;
+    -ms-animation: dash 1.6s ease-in-out;
+    -webkit-transform: translateZ(0);
+  }
+  /*MAP- Karma Button*/
+
+  #karma-Icon.hover #trophyK {
+    animation: shaking .75s 1 ease-in-out;
+    -moz-animation: shaking .75s 1 ease-in-out;
+    -webkit-animation: shaking .75s 1 ease-in-out;
+    -o-animation: shaking .75s 1 ease-in-out;
+    -ms-animation: shaking .75s 1 ease-in-out;
+    transform-origin: 50% 250%;
+    -moz-transform-origin: 50% 250%;
+    -webkit-transform-origin: 50% 250%;
+    -o-transform-origin: 50% 250%;
+    -ms-transform-origin: 50% 250%;
+  }
+  #karma-Icon.hover #trophy-top {
+    animation: shaking .75s 1 ease-in-out;
+    -moz-animation: shaking .75s 1 ease-in-out;
+    -webkit-animation: shaking .75s 1 ease-in-out;
+    -o-animation: shaking .75s 1 ease-in-out;
+    -ms-animation: shaking .75s 1 ease-in-out;
+    transform-origin: 50% 120%;
+    -moz-transform-origin: 50% 120%;
+    -webkit-transform-origin: 50% 120%;
+    -o-transform-origin: 50% 120%;
+    -ms-transform-origin: 50% 120%;
+    transition: fill .3s;
+    -moz-transition: fill .3s;
+    -webkit-transition: fill .3s;
+    -o-transition: fill .3s;
+    -ms-transition: fill .3s;
+    fill: #23A96E;
+    -webkit-transform: translateZ(0);
+  }
+  #karma-Icon.hover #trophyArmL {
+    transition: fill .3s;
+    -moz-transition: fill .3s;
+    -webkit-transition: fill .3s;
+    -o-transition: fill .3s;
+    -ms-transition: fill .3s;
+    fill: #23A96E;
+    -webkit-transform: translateZ(0);
+  }
+  #karma-Icon.hover #trophy-cup {
+    transition: fill .3s;
+    -moz-transition: fill .3s;
+    -webkit-transition: fill .3s;
+    -o-transition: fill .3s;
+    -ms-transition: fill .3s;
+    fill: #23A96E;
+    -webkit-transform: translateZ(0);
+  }
+  #karma-Icon.hover #trophy-leg {
+    animation: grow .75s 1 ease-in-out;
+    -moz-animation: grow .75s 1 ease-in-out;
+    -webkit-animation: grow .75s 1 ease-in-out;
+    -o-animation: grow .75s 1 ease-in-out;
+    -ms-animation: grow .75s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transition: fill .3s;
+    -moz-transition: fill .3s;
+    -webkit-transition: fill .3s;
+    -o-transition: fill .3s;
+    -ms-transition: fill .3s;
+    fill: #23A96E;
+    -webkit-transform: translateZ(0);
+  }
+  #karma-Icon.hover #karma-circle {
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+    stroke: #23A96E;
+    transition: stroke .9s linear;
+    -moz-transition: stroke .9s linear;
+    -webkit-transition: stroke .9s linear;
+    -o-transition: stroke .9s linear;
+    -ms-transition: stroke .9s linear;
+    animation: dash 1.6s ease-in-out;
+    -moz-animation: dash 1.6s ease-in-out;
+    -webkit-animation: dash 1.6s ease-in-out;
+    -o-animation: dash 1.6s ease-in-out;
+    -ms-animation: dash 1.6s ease-in-out;
+    -webkit-transform: translateZ(0);
+  }
+  /*MAP- Tag Button*/
+
+  .tag {
+    animation-direction: reverse;
+    -moz-animation-direction: reverse;
+    -webkit-animation-direction: reverse;
+    -o-animation-direction: reverse;
+    -ms-animation-direction: reverse;
+    -webkit-transform: translateZ(0);
+  }
+  #Tag.hover .tag {
+    animation: shaking .8s 1 ease-in-out;
+    -webkit-animation: shaking .8s 1 ease-in-out;
+    transition: fill .3s linear;
+    -moz-transition: fill .3s linear;
+    -webkit-transition: fill .3s linear;
+    -o-transition: fill .3s linear;
+    fill: rgb(96, 168, 253);
+    transform-origin: 28% 28%;
+    ms-transform-origin: 28% 28%;
+    -webkit-transform-origin: 28% 28%;
+    -webkit-transform: translateZ(0);
+  }
+  #Tag.hover .tag-bg {
+    stroke-dasharray: 138;
+    stroke-dashoffset: 138;
+    stroke: rgb(96, 168, 253);
+    transition: stroke .5s linear;
+    -moz-transition: stroke .5s linear;
+    -webkit-transition: stroke .5s linear;
+    -o-transition: stroke .5s linear;
+    animation: dash .8s ease-in-out;
+    -webkit-animation: dash .8s ease-in-out;
+    transform-origin: 10% 50%;
+    -ms-transform-origin: 10% 50%;
+    -moz-transform-origin: 10% 50%;
+    -webkit-transform-origin: 10% 50%;
+    -o-transform-origin: 10% 50%;
+    -webkit-transform: translateZ(0);
+  }
+  /*View Tag Comment Button*/
+
+  #Comment_button.hover #commentCenter {
+    animation: shaking .5s 2 ease-in-out;
+    -moz-animation: shaking .5s 2 ease-in-out;
+    -webkit-animation: shaking .5s 2 ease-in-out;
+    -o-animation: shaking .5s 2 ease-in-out;
+    -ms-animation: shaking .5s 2 ease-in-out;
+    transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transition: fill .3s linear, transform .8s;
+    -moz-transition: fill .3s linear, transform .8s;
+    -webkit-transition: fill .3s linear, transform .8s;
+    -o-transition: fill .3s linear, transform .8s;
+    -ms-transition: fill .3s linear, transform .8s;
+    fill: rgb(31, 195, 123);
+    transition: fill .3s linear, transform .8s;
+    -moz-transition: fill .3s linear, transform .8s;
+    -webkit-transition: fill .3s linear, transform .8s;
+    -o-transition: fill .3s linear, transform .8s;
+    -ms-transition: fill .3s linear, transform .8s;
+    fill: #fff;
+    -webkit-transform: translateZ(0);
+  }
+  #Comment_button.hover #commentCircle {
+    stroke: rgb(96, 168, 253);
+    transition: fill .3s linear, transform .8s;
+    -moz-transition: fill .3s linear, transform .8s;
+    -webkit-transition: fill .3s linear, transform .8s;
+    -o-transition: fill .3s linear, transform .8s;
+    -ms-transition: fill .3s linear, transform .8s;
+    fill: rgb(96, 168, 253);
+    -webkit-transform: translateZ(0);
+  }
+  #commentButtonResizer {
+    height: 50px;
+    width: 50px;
+    -webkit-transform: translateZ(0);
+  }
+  /*View Tag Love Button */
+  /*Settings Close Button */
+
+  .settings-cancel-btn #cancel-cross #cancel-circle {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+  }
+  .settings-cancel-btn:hover #cancel-cross {
+    opacity: 0;
+    transition: opacity .75s ease-out;
+    -moz-transition: opacity .75s ease-out;
+    -webkit-transition: opacity .75s ease-out;
+    -o-transition: opacity .75s ease-out;
+    animation: cancelCrossGrow .75s 1 ease-in-out;
+    -moz-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -webkit-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -o-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -ms-animation: cancelCrossGrow .75s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -webkit-transform: translateZ(0);
+  }
+  .settings-cancel-btn:hover #cancel-circle {
+    opacity: 0;
+    transition: opacity .75s ease-out;
+    -moz-transition: opacity .75s ease-out;
+    -webkit-transition: opacity .75s ease-out;
+    -o-transition: opacity .75s ease-out;
+    animation: cancelCircleShrink .75s 1 ease-in-out;
+    -moz-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -webkit-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -o-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -ms-animation: cancelCrossGrow .75s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -webkit-transform: translateZ(0);
+  }
+  /*View Tag X Button*/
+
+  #viewTagX {
+    top: -15px;
+    left: -15px;
+    max-height: 35px;
+    position: absolute;
+    z-index: 2;
+    -webkit-transform: translateZ(0);
+  }
+  #viewTagX #cancel-cross {
+    fill: #3E4649;
+    -webkit-transform: translateZ(0);
+  }
+  #viewTagX #cancel-circle {
+    stroke: #3E4649;
+    -webkit-transform: translateZ(0);
+  }
+  #viewTagX.hover #cancel-cross {
+    opacity: 0;
+    transition: opacity .75s ease-out;
+    -moz-transition: opacity .75s ease-out;
+    -webkit-transition: opacity .75s ease-out;
+    -o-transition: opacity .75s ease-out;
+    animation: cancelCrossGrow .75s 1 ease-in-out;
+    -moz-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -webkit-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -o-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -ms-animation: cancelCrossGrow .75s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -webkit-transform: translateZ(0);
+  }
+  #viewTagX.hover #cancel-circle {
+    opacity: 0;
+    transition: opacity .75s ease-out;
+    -moz-transition: opacity .75s ease-out;
+    -webkit-transition: opacity .75s ease-out;
+    -o-transition: opacity .75s ease-out;
+    animation: cancelCircleShrink .75s 1 ease-in-out;
+    -moz-animation: cancelCircleShrink .75s 1 ease-in-out;
+    -webkit-animation: cancelCircleShrink .75s 1 ease-in-out;
+    -o-animation: cancelCircleShrink .75s 1 ease-in-out;
+    -ms-animation: cancelCircleShrink .75s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -webkit-transform: translateZ(0);
+  }
+  /*View Posts Close Button*/
+
+  #closePosts {
+    left: 5px;
+    top: 15px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    z-index: 2;
+    -webkit-transform: translateZ(0);
+  }
+  #closePosts:hover #cancel-cross {
+    opacity: 0;
+    transition: opacity .75s ease-out;
+    -moz-transition: opacity .75s ease-out;
+    -webkit-transition: opacity .75s ease-out;
+    -o-transition: opacity .75s ease-out;
+    animation: cancelCrossGrow .75s 1 ease-in-out;
+    -moz-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -webkit-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -o-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -ms-animation: cancelCrossGrow .75s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -webkit-transform: translateZ(0);
+  }
+  #closePosts:hover #cancel-circle {
+    opacity: 0;
+    transition: opacity .75s ease-out;
+    -moz-transition: opacity .75s ease-out;
+    -webkit-transition: opacity .75s ease-out;
+    -o-transition: opacity .75s ease-out;
+    animation: cancelCircleShrink .75s 1 ease-in-out;
+    -moz-animation: cancelCircleShrink .75s 1 ease-in-out;
+    -webkit-animation: cancelCircleShrink .75s 1 ease-in-out;
+    -o-animation: cancelCircleShrink .75s 1 ease-in-out;
+    -ms-animation: cancelCircleShrink .75s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -webkit-transform: translateZ(0);
+  }
+  /*Karma X Button*/
+
+  .btnX #cancel-cross {
+    fill: #9D9D9D !important;
+    -webkit-transform: translateZ(0);
+  }
+  .btnX #cancel-circle {
+    stroke: #9D9D9D !important;
+    -webkit-transform: translateZ(0);
+  }
+  .btnX:hover #cancel-cross {
+    opacity: 0;
+    transition: opacity .75s ease-out;
+    -moz-transition: opacity .75s ease-out;
+    -webkit-transition: opacity .75s ease-out;
+    -o-transition: opacity .75s ease-out;
+    animation: cancelCrossGrow .75s 1 ease-in-out;
+    -moz-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -webkit-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -o-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -ms-animation: cancelCrossGrow .75s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -webkit-transform: translateZ(0);
+  }
+  .btnX:hover #cancel-circle {
+    opacity: 0;
+    transition: opacity .75s ease-out;
+    -moz-transition: opacity .75s ease-out;
+    -webkit-transition: opacity .75s ease-out;
+    -o-transition: opacity .75s ease-out;
+    animation: cancelCircleShrink .75s 1 ease-in-out;
+    -moz-animation: cancelCircleShrink .75s 1 ease-in-out;
+    -webkit-animation: cancelCircleShrink .75s 1 ease-in-out;
+    -o-animation: cancelCircleShrink .75s 1 ease-in-out;
+    -ms-animation: cancelCircleShrink .75s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -webkit-transform: translateZ(0);
+  }
+  /*Emoji Tag Menu X Button*/
+
+  #backToMap #cancel-cross {
+    fill: #9D9D9D !important;
+    -webkit-transform: translateZ(0);
+  }
+  #backToMap #cancel-circle {
+    stroke: #9D9D9D !important;
+    -webkit-transform: translateZ(0);
+  }
+  #backToMap:hover #cancel-cross {
+    opacity: 0;
+    transition: opacity .75s ease-out;
+    -moz-transition: opacity .75s ease-out;
+    -webkit-transition: opacity .75s ease-out;
+    -o-transition: opacity .75s ease-out;
+    animation: cancelCrossGrow .75s 1 ease-in-out;
+    -moz-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -webkit-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -o-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -ms-animation: cancelCrossGrow .75s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -webkit-transform: translateZ(0);
+  }
+  #backToMap:hover #cancel-circle {
+    opacity: 0;
+    transition: opacity .75s ease-out;
+    -moz-transition: opacity .75s ease-out;
+    -webkit-transition: opacity .75s ease-out;
+    -o-transition: opacity .75s ease-out;
+    animation: cancelCircleShrink .75s 1 ease-in-out;
+    -moz-animation: cancelCircleShrink .75s 1 ease-in-out;
+    -webkit-animation: cancelCircleShrink .75s 1 ease-in-out;
+    -o-animation: cancelCircleShrink .75s 1 ease-in-out;
+    -ms-animation: cancelCircleShrink .75s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -webkit-transform: translateZ(0);
+  }
+  #btnCancelPhoto #cancel-cross {
+    fill: #9D9D9D !important;
+    -webkit-transform: translateZ(0);
+  }
+  #btnCancelPhoto #cancel-circle {
+    stroke: #9D9D9D !important;
+    -webkit-transform: translateZ(0);
+  }
+  #btnCancelPhoto:hover #cancel-cross {
+    opacity: 0;
+    transition: opacity .75s ease-out;
+    -moz-transition: opacity .75s ease-out;
+    -webkit-transition: opacity .75s ease-out;
+    -o-transition: opacity .75s ease-out;
+    animation: cancelCrossGrow .75s 1 ease-in-out;
+    -moz-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -webkit-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -o-animation: cancelCrossGrow .75s 1 ease-in-out;
+    -ms-animation: cancelCrossGrow .75s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -webkit-transform: translateZ(0);
+  }
+  #btnCancelPhoto:hover #cancel-circle {
+    opacity: 0;
+    transition: opacity .75s ease-out;
+    -moz-transition: opacity .75s ease-out;
+    -webkit-transition: opacity .75s ease-out;
+    -o-transition: opacity .75s ease-out;
+    animation: cancelCircleShrink .75s 1 ease-in-out;
+    -moz-animation: cancelCircleShrink .75s 1 ease-in-out;
+    -webkit-animation: cancelCircleShrink .75s 1 ease-in-out;
+    -o-animation: cancelCircleShrink .75s 1 ease-in-out;
+    -ms-animation: cancelCircleShrink .75s 1 ease-in-out;
+    transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -webkit-transform: translateZ(0);
+  }
+  /*The Emoji Growing & Shrinking when selected*/
+
+  .nofade>img,.nofade>div>img {
+    animation: pulse 2s infinite;
+    -moz-animation: pulse 2s infinite;
+    -webkit-animation: pulse 2s infinite;
+    -o-animation: pulse 2s infinite;
+    -ms-animation: pulse 2s infinite;
+    transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -webkit-transform: translateZ(0);
+  }
+  /*New Notification Icon*/
+
+  .new_Notification_icon {
+    width: 30px;
+    float: right;
+    margin-right: 10px;
+    margin-left: -45px;
+    -webkit-transform: translateZ(0);
+  }
+  @keyframes bump {
+    0% {
+      transform: translateY(0px);
+      -webkit-transform: translateY(0px);
+    }
+    30% {
+      transform: translateY(-6px);
+      -webkit-transform: translateY(-6px);
+    }
+    75% {
+      transform: translateY(2px);
+      -webkit-transform: translateY(2px);
+    }
+    100% {
+      transform: translateY(0px);
+      -webkit-transform: translateY(0px);
+    }
+  }
+  @-webkit-keyframes bump {
+    0% {
+      -webkit-transform: translateY(0px);
+    }
+    30% {
+      -webkit-transform: translateY(-6px);
+    }
+    75% {
+      -webkit-transform: translateY(2px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+    }
+  }
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  @-webkit-keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  @keyframes sharing {
+    to {
+      stroke-dashoffset: -140;
+    }
+  }
+  @-webkit-keyframes sharing {
+    to {
+      stroke-dashoffset: -140;
+    }
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      -ms-transform: scale(1);
+      -moz-transform: scale(1);
+      -o-transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+      -ms-transform: scale(1.5);
+      -moz-transform: scale(1.5);
+      -o-transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+      -ms-transform: scale(1);
+      -moz-transform: scale(1);
+      -o-transform: scale(1);
+    }
+  }
+  @-webkit-keyframes pulse {
+    0% {
+      transform: scale(1);
+      -webkit-transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+      -webkit-transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+      -webkit-transform: scale(1);
+    }
+  }
+  @keyframes shaking {
+    0% {
+      transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+      -moz-transform: rotate(15deg);
+      -webkit-transform: rotate(15deg);
+      -o-transform: rotate(15deg);
+    }
+    50% {
+      transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+      -moz-transform: rotate(-15deg);
+      -webkit-transform: rotate(-15deg);
+      -o-transform: rotate(-15deg);
+    }
+    75% {
+      transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+      -moz-transform: rotate(15deg);
+      -webkit-transform: rotate(15deg);
+      -o-transform: rotate(15deg);
+    }
+    100% {
+      transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+    }
+  }
+  @-webkit-keyframes shaking {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    25% {
+      -webkit-transform: rotate(15deg);
+    }
+    50% {
+      -webkit-transform: rotate(-15deg);
+    }
+    75% {
+      -webkit-transform: rotate(15deg);
+    }
+    100% {
+      -webkit-transform: rotate(0deg);
+    }
+  }
+  @keyframes cancelCrossGrow {
+    0% {
+      transform: scale(.9) rotate(0deg);
+    }
+    100% {
+      transform: scale(1.5) rotate(360deg);
+    }
+  }
+  @-webkit-keyframes cancelCrossGrow {
+    0% {
+      -webkit-transform: scale(.9) rotate(0deg);
+    }
+    100% {
+      -webkit-transform: scale(1.5) rotate(360deg);
+    }
+  }
+  @keyframes cancelCircleShrink {
+    0% {
+      transform: scale(1.1);
+    }
+    99% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @-webkit-keyframes cancelCircleShrink {
+    0% {
+      -webkit-transform: scale(1.1);
+    }
+    99% {
+      -webkit-transform: scale(0);
+    }
+    100% {
+      -webkit-transform: scale(1);
+    }
+  }
+  .mapButtons, .animated  {
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+  }

@@ -1,0 +1,165 @@
+/* usersProfile */
+
+.pageTitle{
+font-family: 'Montserrat';
+font-size: 22px;
+color: #FFFFFF;
+line-height: 36px;
+top:35px;
+width: 100%;
+text-align: center;
+padding-bottom: 30px;
+float: left;
+display: inline-block;
+}
+
+.row-settings{
+background: #FFFFFF;
+border-top: 1px solid #60A8FD;
+font-family: 'Montserrat';
+font-size: 15px;
+font-weight: 500;
+color: #2B81E5;
+line-height: 36px;
+display:inline-block;
+float: left;
+width: 100%;
+text-align: left;
+padding: 18px 0px;
+}
+
+.settings-h1 {
+    padding-top: 12px;
+    display: inline-block;
+    float: left;
+}
+
+.user-profile .row {
+  margin: 0px;
+}
+
+.back-to-karma>div{
+
+    left: 60px;
+    color: #fff;
+    top: 20px;
+    padding-top: 25px;
+}
+.back-to-karma>img{
+    width: 50px;
+    position: fixed;
+    padding: 10px;
+    top: 5px;
+    left: 8px;
+    padding-top: 20px;
+}
+
+#btnSendEmojiReq {
+    background: #F96C58;
+    padding: 5px;
+    border: #F96C58;
+    border-bottom: 6px solid;
+    border-bottom-color: #c75646;
+
+}
+
+#btnSendEmojiReq:hover {
+
+    background: #F96C58; 
+    border: solid 1px #F96C58;
+    border-bottom: 6px solid #c75646;
+    color: #fff; 
+    
+}
+
+.row-settings:hover {
+  cursor: pointer;
+  background: rgba(255,255,255,0.8);
+}
+
+.row-contact:hover {
+  cursor: pointer;
+  background: rgba(255,255,255,0.8);
+}
+
+#btnLogout:hover {
+  cursor: pointer;
+  background: rgba(0,94,203,0.8);
+}
+
+#btnChangePwd:hover {
+  cursor: pointer;
+  background: rgba(43,129,229,0.8);
+}
+
+#btnLogout {
+    /* Fill 617: */
+    background: #005ECB;
+    width: 100%;
+    float: left;
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+
+.chgPwd, .logout {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin: 0px;
+
+}
+
+#btnChangePwd{
+    /* Fill 618: */
+    background: #2B81E5;
+    width: 100%;
+    float: left;
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 0px;
+    margin: 0px;
+     padding: 30px 0px;
+}
+
+#userProfileView{
+
+    background-color: #60A8FD;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    color: gray;
+    z-index: 1001;
+
+
+}
+
+.user-profile{
+    margin-top: 35px;
+}
+
+.user-profile h2{
+  color: #fff;
+}
+
+.control-label{
+  color: #3E4649;
+}
+
+#emojiRequest {
+  color:grey;
+}
+
+.forgot-password-form{
+background: #FFFFFF;
+box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.50);
+border-radius: 8px;
+}

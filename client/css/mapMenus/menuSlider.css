@@ -1,0 +1,9 @@
+.mm-menu {
+  width:33%;
+
+ }
+
+.mm-menu.mm-horizontal > .mm-panel {
+    -webkit-transition: -webkit-transform 0.4s ease;
+    transition: transform 0.4s ease;
+  }

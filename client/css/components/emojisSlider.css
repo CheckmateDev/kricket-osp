@@ -1,0 +1,124 @@
+/* Slider of 4 emojis in row. */
+
+.emojiSlider{
+	background-color: lightgray;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	color: gray;
+	z-index: 1000;
+}
+
+ul.horizontal-slide {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+ul.horizontal-slide.bar{
+  width: 100%;
+  left: 50px;
+}
+
+ul.horizontal-slide li{
+	display: inline-block;
+	float: none;
+	min-height: 45px;
+	width: 18px;
+	margin-left: 15px;
+}
+
+ul.horizontal-slide li:first-child {
+    margin-left: 0;
+}
+
+
+
+
+
+ul.emoji {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 206px;
+	width: 50px;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-flex-direction: column;
+    -webkit-flex-wrap: wrap;
+}
+ul.emoji>li {
+	width: 50px;
+	height: 50px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+	border: 1px solid lightgray;
+}
+
+ul.emoji>li>img{
+	width: 50px;
+	height: 50px;
+}
+
+.category{
+	text-transform: uppercase;
+	color: grey;
+	background-color: lightgray;
+	line-height: 30px;
+	padding-left: 5px;
+	text-align: left;
+	width: 50px;
+}
+
+.category>span{
+	position: relative;
+}
+
+/* emoji bar */
+.emojiBar{
+	background-color: #fff;
+	width: 100%;
+	color: gray;
+	z-index: 1000;
+	top: 237px;
+	position: relative;
+	margin-top: 14px;
+}
+
+.emojiBar>ul>li>img{
+	width: 25px;
+	margin-top: 14px;
+	margin-left:10px;
+	float: none;
+	margin-left: 5%;
+
+}
+
+/* back button in bar */
+
+#backToMap{
+position: absolute;
+  left: 10px;
+  color: #cfcfcf;
+}
+
+#backToMap>img{
+	width: 50px;
+	position: relative;
+	padding: 10px;
+}
+
+#backToMap>div{
+	display: inline-block;
+  	font-size: 18pt;
+  	top: 4px;
+  	position: relative;
+}

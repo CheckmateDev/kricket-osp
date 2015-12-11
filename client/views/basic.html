@@ -1,0 +1,9 @@
+<template name="basic">
+    <div class="content">
+        {{> templateBasicHeader}}
+        <div class="container-fluid" id="map-container">
+            <div id="map" class="map{{#if cameraOn}} hide{{/if}}"></div>
+        </div>
+        {{>yield}}
+    </div>
+</template>

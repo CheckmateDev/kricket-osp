@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12005) - http://www.bohemiancoding.com/sketch -->
+    <title>Contact</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Kricket" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Setting_Instagram_click" sketch:type="MSArtboardGroup" transform="translate(-158.000000, -119.000000)">
+            <g id="Contact" sketch:type="MSLayerGroup" transform="translate(158.000000, 119.000000)">
+                <circle id="Oval-49" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="30" cy="30" r="30"></circle>
+                <g id="Imported-Layers" transform="translate(15.000000, 21.000000)" fill-opacity="0.85" fill="#60A8FD" sketch:type="MSShapeGroup">
+                    <path d="M14.9765414,9.6044592 L29.8762782,0.631715571 C29.6896241,0.257104305 29.3105639,0 28.8721805,0 L1.12781955,0 C0.706240602,0 0.339360902,0.237558364 0.145827068,0.588807025 L14.9765414,9.6044592" id="Fill-1"></path>
+                    <path d="M14.9705639,12.5586721 L0,3.45801242 L0,17.355061 C0,17.9938317 0.504924812,18.5116256 1.12781955,18.5116256 L28.8721805,18.5116256 C29.4950752,18.5116256 30,17.9938317 30,17.355061 L30,3.50797601 L14.9705639,12.5586721" id="Fill-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

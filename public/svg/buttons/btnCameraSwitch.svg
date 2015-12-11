@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12005) - http://www.bohemiancoding.com/sketch -->
+    <title>btnCameraSwitch</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="UI/UX-1.2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Assets" sketch:type="MSArtboardGroup" transform="translate(-211.000000, -194.000000)">
+            <g id="btnCameraSwitch" sketch:type="MSLayerGroup" transform="translate(214.250000, 195.161517)">
+                <g id="Oval-11-Copy-3-+-Oval-11-Copy-4-+-Imported-Layers-Copy" transform="translate(0.000000, 0.806581)" sketch:type="MSShapeGroup">
+                    <ellipse id="Oval-11-Copy-3" fill="#60A8FD" filter="url(#filter-1)" cx="12.5" cy="12.3140203" rx="12.0192308" ry="12.0192308"></ellipse>
+                    <ellipse id="Oval-11-Copy-4" fill="#FFFFFF" cx="12.5" cy="12.3140203" rx="12.0192308" ry="12.0192308"></ellipse>
+                </g>
+                <g id="Imported-Layers" transform="translate(4.000000, 6.806581)" fill="#426CA6" sketch:type="MSShapeGroup">
+                    <path d="M15.1757853,12.168619 L12.5402638,12.168619 C12.3962331,12.168619 12.2795276,12.0531667 12.2795276,11.9106825 C12.2795276,11.7681984 12.3962331,11.652746 12.5402638,11.652746 L15.1757853,11.652746 C16.3931104,11.652746 16.4069816,10.4843968 16.4069816,10.4346667 L16.4069816,4.29938889 C16.4069816,2.14995238 14.9725153,2.11961905 14.9115031,2.1194127 L6.57242945,2.1194127 C6.42839877,2.1194127 6.31169325,2.00396032 6.31169325,1.86147619 C6.31169325,1.71899206 6.42839877,1.60353968 6.57242945,1.60353968 L14.9124417,1.60353968 C14.9336135,1.60364286 16.9285583,1.64212698 16.9285583,4.29938889 L16.9285583,10.4346667 C16.9285583,11.0344206 16.5621718,12.168619 15.1757853,12.168619" id="Fill-1"></path>
+                    <path d="M13.3993374,11.9106825 L13.3993374,12.9006429 L11.6659632,11.9106825 L13.3993374,10.920619 L13.3993374,11.9106825" id="Fill-2"></path>
+                    <path d="M10.618638,11.0435 C10.618638,11.1859841 10.5019325,11.3014365 10.3580061,11.3014365 L2.01788957,11.3014365 C1.9966135,11.3013333 0.00187730061,11.2628492 0.00187730061,8.6055873 L0.00187730061,2.47030952 C0.00187730061,1.87055556 0.368159509,0.736357143 1.75454601,0.736357143 L4.39006748,0.736357143 C4.53399387,0.736357143 4.65080368,0.851809524 4.65080368,0.994293651 C4.65080368,1.13677778 4.53399387,1.25223016 4.39006748,1.25223016 L1.75454601,1.25223016 C0.537220859,1.25223016 0.523349693,2.42057937 0.523349693,2.47030952 L0.523349693,8.6055873 C0.523349693,10.7550238 1.95781595,10.7853571 2.01882822,10.7855635 L10.3580061,10.7855635 C10.5019325,10.7855635 10.618638,10.9010159 10.618638,11.0435" id="Fill-3"></path>
+                    <path d="M3.53099387,0.994293651 L3.53099387,0.00433333333 L5.2643681,0.994293651 L3.53099387,1.98435714 L3.53099387,0.994293651" id="Fill-4"></path>
+                    <path d="M11.2381472,6.45243651 C11.2381472,7.96755556 9.99662577,9.19564286 8.46516564,9.19564286 C6.93370552,9.19564286 5.69218405,7.96755556 5.69218405,6.45243651 C5.69218405,4.93742063 6.93370552,3.70933333 8.46516564,3.70933333 C9.99662577,3.70933333 11.2381472,4.93742063 11.2381472,6.45243651" id="Fill-5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

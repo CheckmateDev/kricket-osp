@@ -1,0 +1,21 @@
+ <template name="viewAtmospheres">
+  <div id="viewAtmosphereContainer">
+    <div id="switch" class="animated slideInDown{{#if isCordova}}cordova{{/if}}">
+      <ul class="nav nav-tabs">
+        <li class="{{#if selectedTab 'emoji'}}active{{/if}}">
+          <a id="tabEmoji">{{i18n "emoji"}}</a>
+        </li>
+        <li class="{{#if selectedTab 'photo'}}active{{/if}}">
+          <a id="tabPhoto">{{i18n "photo"}}</a>
+        </li>
+      </ul>
+    </div>
+    <div id="emojis" class="animated ">
+      {{>viewAtmospheresEmojis}}
+    </div>
+
+    <div id="photos" class="{{#if isCordova}}cordova{{/if}}" style="display:none">
+      {{>viewAtmospheresCamera}}
+    </div>
+  </div>
+</template>

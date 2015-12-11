@@ -1,0 +1,63 @@
+#mapMenuLeft {
+  display:inline-block;
+width:95px;
+position: absolute;
+top: 0px;
+left: 0px;
+height:100%;
+z-index: 5;
+
+}
+#mapMenuLeftLogo{
+  margin-top:10px;
+  height:80%;
+}
+
+#menuLeftHeader{
+  background-color: #fff;
+  height:16%;
+}
+.greyed-out{
+  color: #9d9d9d !important;
+
+}
+
+#mapMenuLeftTop{
+  background-color: #fff;
+}
+
+
+/* Underline Reveal */
+.hvr-underline-reveal-white {
+display: block;
+vertical-align: middle;
+-webkit-transform: translateZ(0);
+transform: translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+-moz-osx-font-smoothing: grayscale;
+position: relative;
+overflow: hidden;
+}
+.hvr-underline-reveal-white:before {
+content: "";
+position: absolute;
+z-index: -1;
+background: #fff;
+height: 100%;
+width: 5px;
+right: 60px;
+-webkit-transform: translate(-14px,0);
+transform: translate(-14px,0);
+-webkit-transition-property: transform;
+transition-property: transform;
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-timing-function: ease-out;
+transition-timing-function: ease-out;
+}
+.hvr-underline-reveal-white:hover:before, .hvr-underline-reveal-white:focus:before, .hvr-underline-reveal-white:active:before {
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}

@@ -1,0 +1,91 @@
+<template name="viewTagBig">
+	<div class="viewTagBig tag-emoji big{{#if keyboardIsOn}} with-keyboard{{/if}} hide">
+		<div class="tag-emoji-content {{#if keyboardIsOn}}with-keyboard{{/if}}">
+
+			{{#with currentMarker}}
+			<div class="tag-emoji-header">
+				{{#if isOldVersion}}
+				<img src="/svg/markers/{{category}}.svg"> {{else}} {{#if typeIs "photo"}}
+				<div id="viewPhoto">
+					<img src="{{img}}" alt="Photo is loading...">
+				</div>
+				{{/if}} {{#if typeIs "emoji"}}
+				<div class="emoji-viewTag-style svg-emoji-viewTag png-emoji-{{category}}-{{icon}} png-emoji-{{category}}-{{icon}}-dims"></div>
+				{{/if}} {{#if typeIs "karmaStoreEmoji"}}
+				<div id="" class="tag-emoji-header">
+					<img src="{{karmaStoreEmoji}}" alt="Emoji is loading...">
+				</div>
+				{{/if}} {{/if}}
+
+
+				<div id="indivdual-counter" class="view-posts-counter animated fadeInUp">
+					{{timeCounter}}
+				</div>
+
+				<div class="tag-emoji-vibe">
+					{{#if isTranslatedVibe}}
+						{{{translatedVibe}}}
+					{{else}}
+						<span>{{{vibe}}}</span>
+					{{/if}}
+				</div>
+				{{#if hasBeenOffensive}} {{else}}
+				<div class="alert-link alertContent">
+					<svg width="15px" height="16px" viewBox="0 0 15 16">
+						<g id="Map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+							<g id="View_Tag_Emoji" sketch:type="MSArtboardGroup" transform="translate(-12.000000, -13.000000)" fill-opacity="0.5" fill="#9D9D9D">
+								<path d="M26.992646,13.7269848 C26.9923792,13.568499 26.9559595,13.4100133 26.9256764,13.1640135 C25.6351114,14.5906521 24.1441713,14.8231779 22.474868,14.2954257 C21.5663764,14.0080702 20.6608198,13.7111095 19.7497935,13.4318918 C18.2122949,12.9607035 16.8580954,13.2720719 15.7248155,14.4272303 C15.5990141,14.5555665 15.4858862,14.7643461 15.4846856,14.9364392 C15.469344,17.4227179 15.47428,19.9089966 15.47428,22.4326288 C15.566063,22.4187546 15.5908764,22.4222232 15.604884,22.4115507 C15.6757223,22.3581885 15.7489619,22.3062938 15.8120627,22.2443936 C16.7904588,21.2834737 17.9613591,20.9026009 19.2900781,21.2315789 C20.4069491,21.5081286 21.4958049,21.8975393 22.5981347,22.2335878 C24.0347788,22.6716915 25.3816409,22.5437556 26.509718,21.4795798 C26.7645225,21.2393164 26.9675657,20.8093504 26.9738358,20.4626295 C27.0149247,18.2180816 26.9962479,15.9723331 26.992646,13.7269848 Z M14.4086367,26.0443165 C14.4611984,21.9087453 14.4391865,17.77771 14.4325163,13.6381367 C14.4322494,13.4747149 14.3516725,13.1837575 14.2827019,13.1758866 C13.8486003,13.1267933 13.3990237,13.0981112 12.9739937,13.1721512 C12.869137,13.1904278 12.7796219,13.6234621 12.7788214,13.8653263 C12.7669483,17.8606882 12.7926956,21.8449775 12.753341,25.8400726 C12.7525405,25.913579 12.7553421,26.0443165 12.759611,26.0443165 L14.4086367,26.0443165 Z M12,26.8447496 L15.2017325,26.8447496 L15.2017325,28.4376115 L12,28.4376115 L12,26.8447496 Z"
+								id="Flag-Content" sketch:type="MSShapeGroup"></path>
+							</g>
+						</g>
+					</svg>
+				</div>
+				{{/if}}
+			</div>
+
+			<!-- COMMENTS -->
+			<ul class="tag-emoji-view-list-of-comments {{#if keyboardIsOn}} with-keyboard{{else}} without-keyboard{{/if}}{{#if typeIs 'photo'}} photo-comments{{/if}}{{#if typeIs 'emoji'}} emoji-comments{{/if}} emoji-comments">
+				<div class="view-comments-arrow">
+					<i class="fa fa-angle-up"></i>
+				</div>
+				{{#if comments}} 
+
+					{{#if areTranslatedComments}}
+						{{#each translatedComments}}
+							<li class="tag-emoji-comment animated fadeInUp">
+								<span class="">{{this}}</span>
+							</li>
+						{{/each}}
+					{{else}}
+						{{#each comments}}
+							<li class="tag-emoji-comment animated fadeInUp">
+								<span class="">{{comment}}</span>
+							</li>
+						{{/each}} 
+					{{/if}}
+				{{else}}
+				<div class="no-emoji">Comment = +1 Karma</div>
+				{{/if}}
+			</ul>
+			{{/with}}
+
+			<div class="tag-emoji-action-bar">
+				<div class="commentSelectedEmoji">
+					<div class="tellYourMind{{isCommentMode}} active">
+						<input type="text" id="newComment" class="newComment" dir="auto">
+					</div>
+					<div class="btnTellYouMind" id="tellTheWorld">
+						<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+						    <g id="Map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+						        <g id="View_Tag_Emoji" sketch:type="MSArtboardGroup" transform="translate(-232.000000, -611.000000)" fill="#60A8FD">
+						            <path d="M246.980143,641 C254.988272,641 261.480143,634.284271 261.480143,626 C261.480143,617.715729 254.988272,611 246.980143,611 C238.972014,611 232.480143,617.715729 232.480143,626 C232.480143,634.284271 238.972014,641 246.980143,641 Z M251.715055,620.319009 L244.138881,628.042624 L242.245231,626.11172 C241.408331,625.261703 240.051452,625.261703 239.215076,626.11172 C238.378176,626.966985 238.378176,628.352199 239.215076,629.202216 L242.624066,632.680991 C243.460966,633.536256 244.817321,633.536256 245.654221,632.680991 L254.74521,623.409504 C255.58211,622.55424 255.58211,621.169026 254.74521,620.319009 C253.90831,619.463744 252.551955,619.463744 251.715055,620.319009 Z" id="Okay" sketch:type="MSShapeGroup"></path>
+						        </g>
+						    </g>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</template>

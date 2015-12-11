@@ -1,0 +1,68 @@
+.view-comments{
+	height:100%;
+	width:100%;
+	background:blue;
+}
+
+
+#newComment>img{
+	display:inline-block;
+}
+
+.commentSelectedEmoji{
+	z-index: 5;
+	display:inline-block;
+	font-size: 12px;
+	bottom:25px;
+}
+
+.commentSelectedEmoji .tellYourMind{
+	position:relative;
+
+}
+
+.comment-count {
+	display: inline-block;
+	position: absolute;
+	bottom:-5px;
+	right:10px;
+	padding: 7px 10px;
+	color: white;
+	background: rgb(96, 168, 253);
+	font-size: 9px;
+	line-height: initial;
+	border-radius: 500px;
+}
+
+.comment-count-map {
+	display: inline-block;
+	position: absolute;
+	bottom: 40px;
+	padding: 7px 10px;
+	color: white;
+	background: rgb(96, 168, 253);
+	font-size: 12px;
+	line-height: initial;
+	border-radius: 500px;
+}
+
+#backToMap {
+	z-index: 1000;
+	left: 15px;
+	top: 3px;
+}
+
+div.tellYourMind {
+	z-index: 1;
+	max-width: 100%;
+}
+
+div#tellYourMind.active, div.tellYourMind.active {
+	max-width: 100%;
+	padding:none;
+}
+
+#btnTellYouMind, .btnTellYouMind{
+	float:right;
+	display:inline-block;
+}

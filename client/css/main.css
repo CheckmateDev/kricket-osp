@@ -1,0 +1,490 @@
+
+
+.preference-setting {
+   position: absolute;
+   top:0px;
+   left: 0px;
+   width: 100%;
+   }
+
+
+.vibe-preference {
+   height: 100vh;
+   padding-top: 20%;
+   position: fixed;
+   top:0px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+html, html body{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+img{
+    max-width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.content{
+    position: relative;
+    min-height: calc(100% - 65px);
+    background-color:transparent !important;
+}
+
+
+body {
+    background-color:white !important;
+}
+html,body.transparent{
+    background-color:transparent !important;
+}
+
+#map-container{
+    background-color: transparent;
+}
+
+
+
+
+/* splash screen at startup, by default active */
+.loading{
+    display: none;
+}
+.loading.active{
+    display: block;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: white;
+}
+.loading>img{
+    top: calc(50% - 78px);
+    left: calc(50% - 78px);
+    position: absolute;
+}
+.loading-information{
+    top: calc(50% + 90px);
+    position: relative;
+}
+.loading-information>span{
+    display: block;
+    color:#F96C58;
+}
+.loading-information>span.active{
+    color: rgba(35,169,110,1);
+}
+
+.loading-information>#btnDismiss{
+    background-color: rgba(35,169,110,1);
+    line-height: 10px;
+    padding: 20px 100px;
+    position: absolute;
+    border-right-width: 10px;
+    top: 50px;
+    left: calc(50% - 125px);
+    cursor: pointer;
+}
+
+/*Navigation */
+
+nav {
+    margin-top: 4px;
+}
+
+nav.navbar .navbar-brand{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+nav.navbar .navbar-brand,
+nav.navbar .navbar-nav>li>a{
+
+    color: rgba(255,255,255,0.8);
+    line-height: 32px;
+    height: auto;
+}
+nav.navbar .navbar-brand:hover,
+nav.navbar .navbar-brand:active,
+nav.navbar .navbar-nav>li>a:hover,
+nav.navbar .navbar-nav>li>a:active
+{
+    color: #FC611F;
+}
+nav.navbar .navbar-brand img{
+    display: inline-block;
+    width: 40px;
+    margin-top: -10px;
+}
+
+ul#menutray {
+    background: #1e1e1e;
+}
+
+nav, .map { transition: .2s margin ease-in; display: block; position: relative; }
+
+nav {
+    margin-left: -100%;
+    float: left;
+    height: 100%;
+    margin-top: 50px;
+    height: 100vh;
+}
+
+body.active .map:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #4e4e4e;
+}
+
+body.active nav{
+    margin-left: 0;
+}
+
+body.active .map, body.active .user-profile {
+    margin-left: 120px;
+    width: calc(100% - 120px);
+}
+
+.title{
+    float: left;
+    width: 100%;
+}
+.title h3{
+    display: inline-block;
+    margin-top: 0;
+}
+
+.toolbar{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px
+}
+.toolbar .quick-search.col-xs-12{
+    margin-top: 10px;
+    padding:0;
+}
+.toolbar .input-group .form-control{
+}
+
+
+
+
+.table .buttons{
+    text-align: right;
+}
+.table .buttons .btn{
+}
+
+.tab-content{
+    padding: 30px 0;
+}
+
+.table thead th{
+    position: relative;
+}
+.table thead th.ascending:after{
+    position: relative;
+    top: -12px;
+    margin-left: 5px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 3.5px 7px 3.5px;
+    border-color: transparent transparent #222 transparent;
+}
+.table thead th.descending:after{
+    position: relative;
+    top: 12px;
+    margin-left: 5px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 3.5px 0 3.5px;
+    border-color: #222 transparent transparent transparent;
+}
+.table .filter input{
+    width: calc(100% - 10px);
+    overflow: hidden;
+    margin: 5px;
+}
+.table .image{
+    max-height: 150px;
+}
+
+.input-lg, .btn-lg{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 15px !important;
+    height: auto;
+    max-width: 450px;
+}
+
+.email-input {
+    margin-left: none;
+    margin-bottom: 30px;
+}
+
+.load-more{
+    margin-top: -10px !important;
+    margin-bottom: 20px;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-family: 'OpenSans';
+    letter-spacing: 5px;
+}
+.logo img{
+    width: 150px;
+    height: 200px;
+    position: relative;
+    top: -10px;
+    margin: 70px 0 20px;
+}
+
+.sign-form p a{
+    font-size: 110%;
+    text-decoration: underline;
+}
+.btn-red:hover {
+    background-color: #23A96E;
+    border-color: #23A96E;
+    border-bottom: 6px solid #0A7A48;
+}
+
+.btn-danger{
+    background-color: #23A96E;
+    border-color: #23A96E;
+    border-bottom: 6px solid #0A7A48;
+}
+
+footer{
+    margin: 20px 0 5px;
+    height: 40px;
+    overflow: hidden;
+    font-size: 90%;
+}
+.footer span{
+    display: inline-block;
+    line-height: 20px;
+    padding: 0;
+    color: #999;
+}
+footer a{
+    color: #666;
+    text-decoration: underline;
+}
+
+
+div.container.sign-form{
+    width:100%;
+    height: 100vh;
+}
+
+.sign-form p a {
+    color: gray;
+}
+
+/*Checkbox*/
+input[type="checkbox"] {
+    -webkit-appearance : none;
+    appearance : none;
+    border: 1px solid #aaa;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: relative;
+}
+input[type="checkbox"]:checked:before {
+    font: normal normal normal 12px/1 FontAwesome;
+    content: "\f00c";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/*Field Table*/
+.btnAddField{
+    display: none;
+}
+.collectionFields tr:last-child .btnAddField{
+    display: inline-block;
+}
+
+
+/* Map Button Class */
+
+
+
+/* Tag map button */
+
+#btnTag{
+    width: 60px;
+    position:fixed;
+    text-align: center;
+    bottom:15px;
+    left: calc(50% - 30px);
+
+
+}
+
+/* Karma map button */
+
+#btnKarma{
+    width:75px;
+    position: fixed;
+    text-align: center;
+    bottom:15px;
+    right:5px;
+}
+
+/* map - zoomButton*/
+
+#btnZoom{
+    width: 45px;
+    position:fixed;
+    text-align: center;
+    bottom:15px;
+    left: calc(50% - 27%);
+    padding-bottom:5px;
+}
+
+#btnSearch{
+  position: absolute;
+bottom: 15px;
+right: calc(50% - 27%);
+}
+
+#btnSettings {
+  width: 46px;
+  position:fixed;
+  text-align: center;
+  left:15px;
+  bottom:15px
+}
+
+.comment-count-map {
+	display: inline-block;
+	position: absolute;
+	bottom: 15px;
+  right: 15px;
+	padding: 7px 10px;
+	color: white;
+	background: #23a96e;
+	font-size: 9px;
+	line-height: initial;
+	border-radius: 100%;
+}
+
+
+.form{
+    margin-top: 10px;
+    margin-left:15px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.input__label-content--haruki{
+    padding: 1em 0;
+}
+
+
+/* for momentum */
+.momentum-y {
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+}
+.momentum-x {
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Successful Emoji Request message */
+
+#lblEmojiSent h3 {
+    color: white;
+}
+
+.home-logo {
+    height: 150px;
+    padding-top: 40px;
+    margin-left: 15px;
+
+}
+
+.home-logo img {
+    height: 150px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+.loading-screen{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    left: 0px;
+}
+.loading-puff{
+    position: absolute;
+    bottom: 100px;
+    z-index: 1001;
+    width: 100%;
+}

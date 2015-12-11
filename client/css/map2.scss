@@ -1,0 +1,242 @@
+.container-fluid {
+	width: 100%;
+	padding: 0;
+}
+
+header nav {
+	background: #1e1e1e;
+}
+
+.btn-blue {
+	background: #174DFF;
+	border-bottom: 6px #174DFF;
+}
+
+.map { 
+	height: 100vh;
+	width: 100%;
+}
+
+.leaflet-popup-content{
+	// display:none;
+}
+
+.leaflet-control-locate {
+  border:1px solid rgba(0,0,0,0.4);
+  }
+.leaflet-control-locate a {
+  background-color:#fff;
+  background-position:-3px, -2px;
+  }
+.leaflet-control-locate.active a {
+  background-position:-33px -2px;
+  }
+
+ .leaflet-touch .leaflet-bar-part-single {
+	-webkit-border-radius: 7px 7px 7px 7px;
+	        border-radius: 7px 7px 7px 7px;
+	border-bottom: none;
+}
+
+.leaflet-control-locate a {
+	background-image: url(images/locate.png);
+    background-size:90px 30px;
+	background-position: -2px -2px;
+}
+
+.leaflet-retina .leaflet-control-locate a {
+	background-image: url(images/locate@2x.png);
+}
+
+.leaflet-touch .leaflet-control-locate a {
+	background-image: url(images/locate_touch.png);
+}
+
+.leaflet-control-locate.requesting a {
+    background-size:12px 12px;
+	background-image: url(images/spinner.gif);
+	background-position: 50% 50%;
+}
+
+.leaflet-retina .leaflet-control-locate.requesting a {
+	background-image: url(images/spinner@2x.gif);
+}
+
+.leaflet-control-locate.active a {
+	background-position: -32px -2px;
+}
+
+.leaflet-control-locate.active.following a {
+	background-position: -62px -2px;
+}
+
+.leaflet-touch .leaflet-control-locate {
+	box-shadow: none;
+	border: 2px solid rgba(0,0,0,0.2);
+	background-clip: padding-box;
+}
+
+#map > div.leaflet-map-pane > div.leaflet-objects-pane > div.leaflet-popup-pane > div > div.leaflet-popup-content-wrapper > div {
+	max-width:0px;
+	padding:0px;
+	margin-left:10px
+}
+
+#map{
+	background-color:transparent;
+}
+
+.atmosphere-preference {
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	z-index:1000;
+	position: absolute;
+	top: 0px;
+	left: 0%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	.close {
+		width: 20px;
+		height: 20px;
+	}
+}
+
+.preference-dialogue {
+	background-color: #037BC0;
+	color: #fff;
+	padding: 1em;
+}
+
+.preference-setting {
+	background-color: #fff;
+	color: #C6C5C5;
+	/*padding: 1em;*/
+
+	/*img {
+		height: 100px;
+		width: 100px;
+	}*/
+
+}
+
+.preference-setting.row, .preference-dialogue.row, .atmosphere-preference {
+	width:100%;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.voting-menu {
+
+	background-color: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	bottom: 1vh;
+	width: 100%;
+	margin: 0px;
+
+	.up-vote, .down-vote {
+		display: inline-block;
+		width: 49%;
+		height: 130px;
+		background-repeat: no-repeat;
+		background-position: 0% 0%;
+		position: inline-block;
+		margin-top: 10px;
+		margin-left: 0px;
+		
+	}
+	.down-count, .up-count {
+		display: inline-block;
+		font-family: 'Avenir-Condensed';
+		font-size: 1.6em;
+	}
+
+	svg {
+		width: 110px;
+	}
+	.upvoted {
+		background-color: red;
+	}
+	.downvoted {
+		background-color: blue;
+	}
+	.up-count {
+		margin-right: 0px;
+	}
+	.down-vote {
+		border-left: 3px #30302F solid;
+	}
+}
+
+//login, register, profile
+
+.user-profile {
+	h2, h3, h4 {
+		color: #E3E3E3;
+		margin-top: 5em;
+	}
+	.row {
+		margin: 2em 0;
+	}
+	.control-label {
+	    color: #E3E3E3;
+	}		
+}
+
+// Share
+
+
+ ::-webkit-scrollbar {
+            width: 0px;
+        }
+        ::-webkit-scrollbar-button:start:decrement,
+        ::-webkit-scrollbar-button:end:increment  {
+            display: block;
+        }
+
+// Map keyboard
+
+	.keyBoardMap{
+		display:none;
+		position:absolute;
+		bottom:236px;
+		width:100%;
+		height:0%;
+		bottom:0px;
+	}
+	.keyBoardMap.active{
+		display:block;
+		height:301px;
+	}
+
+	.modalGpsOn{
+		display:none;
+	}
+	.modalGpsOn.active{
+		display:block;
+	}
+
+.svg-emoji-map{
+	top:-21px;
+	left:-21px;
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	transform: scale(calc( 30 / 71 ));
+	-ms-transform: scale(calc( 30 / 71 ));
+	-webkit-transform: scale(calc( 30 / 71 ));
+	-moz-transform: scale(calc( 30 / 71 ));
+}
+
+.leaflet-marker-icon.leaflet-div-icon.leaflet-zoom-animated.leaflet-clickable{
+	background: none !important;
+  	border: 0px !important;
+}
+
+
+.rounded-photo{
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}

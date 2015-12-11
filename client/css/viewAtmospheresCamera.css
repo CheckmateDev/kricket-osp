@@ -1,0 +1,78 @@
+
+#btnSwitch{
+	background-size: 70px 70px;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	bottom: -55px;
+	right : 15px;
+	border:none;
+	z-index: -1;
+}
+#btnSendPhoto{
+	position:absolute;
+	max-width: 50px;
+  max-height: 75px;
+	left: calc(50% - 25px);
+	bottom: -55px;
+
+
+}
+
+#photoSendBig{
+	height:75px
+
+}
+#btnCancelPhoto{
+	left: 5px;
+	bottom: -55px;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	z-index: 1;
+}
+
+
+#btnTapPhoto{
+	background: url(/svg/buttons/btnSend.svg) no-repeat;
+	background-size: 70px 70px;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	bottom: -55px;
+	margin-left: calc(50% - 35px);
+	z-index: -1;
+
+}
+
+#btnTapPhoto{
+	background: url(/svg/buttons/btnTapSend.svg) no-repeat;
+	margin-left: calc(50% - 33px);
+}
+
+#preview{
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 85px;
+}
+
+#video-container{
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.photo-vibe {
+    top: 50%;
+    width: 100%;
+    position: absolute;
+}
+
+.photo-vibe>input {
+    width: 100%;
+    opacity: 0.7;
+    color: black;
+    font-size: 15pt;
+    text-align: center;
+}

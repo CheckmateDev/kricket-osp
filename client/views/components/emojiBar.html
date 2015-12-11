@@ -1,0 +1,23 @@
+<template name="emojiBar">
+	<div class="emojiBar animated fadeInUp" style="{{#if isCordova}}margin-top:0{{/if}}">
+		<div id="btnCloseAtmosphere">
+			<div id="" class="settings-cancel-btn">
+				<svg width="25px" height="25px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+          <g id="Karma-Menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+            <g sketch:type="MSArtboardGroup" transform="translate(-313.000000, -605.000000)" id="Close" fill="#151515">
+              <path d="M326.510025,619.974746 L321.556434,615.021155 C321.359989,614.82471 321.36547,614.5127 321.561292,614.316877 L322.316877,613.561292 C322.514695,613.363475 322.828016,613.363295 323.021155,613.556434 L327.974746,618.510025 L332.750581,613.73419 C332.944485,613.540286 333.258612,613.540843 333.452703,613.734933 L334.265067,614.547297 C334.454343,614.736574 334.45949,615.055739 334.26581,615.249419 L329.489975,620.025254 L334.443566,624.978845 C334.640011,625.17529 334.63453,625.4873 334.438708,625.683123 L333.683123,626.438708 C333.485305,626.636525 333.171984,626.636705 332.978845,626.443566 L328.025254,621.489975 L323.249419,626.26581 C323.055515,626.459714 322.741388,626.459157 322.547297,626.265067 L321.734933,625.452703 C321.545657,625.263426 321.54051,624.944261 321.73419,624.750581 L326.510025,619.974746 Z M328,635 C336.008129,635 342.5,628.284271 342.5,620 C342.5,611.715729 336.008129,605 328,605 C319.991871,605 313.5,611.715729 313.5,620 C313.5,628.284271 319.991871,635 328,635 Z"
+              sketch:type="MSShapeGroup"></path>
+            </g>
+          </g>
+        </svg>
+			</div>
+		</div>
+		<ul class="horizontal-slide bar momentum-x">
+			{{#each categories}}
+			<li>
+				<img src="{{url}}{{img}}" class="loadCategory" data-index="{{id}}">
+			</li>
+			{{/each}}
+		</ul>
+	</div>
+</template>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="26px" height="20px" viewBox="0 0 26 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12005) - http://www.bohemiancoding.com/sketch -->
+    <title>Email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="More-Menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="About" sketch:type="MSArtboardGroup" transform="translate(-291.000000, -596.000000)" fill="#FFFFFF">
+            <path d="M303.617223,607.960437 L301.026598,605.812781 L291.988317,615.065125 L315.016442,615.065125 L306.144567,605.797156 L303.617223,607.960437 L303.617223,607.960437 Z M307.437536,604.815125 L316.032848,613.751844 C316.082067,613.578406 316.117223,613.398719 316.117223,613.208875 L316.117223,597.762 L307.437536,604.815125 L307.437536,604.815125 Z M291.117223,597.726062 L291.117223,613.208875 C291.117223,613.398719 291.152379,613.578406 291.201598,613.751844 L299.825817,604.844031 L291.117223,597.726062 L291.117223,597.726062 Z M315.335973,596.307312 L291.898473,596.307312 L303.617223,605.697156 L315.335973,596.307312 L315.335973,596.307312 Z" id="Email" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

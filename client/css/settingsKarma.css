@@ -1,0 +1,44 @@
+.settings-karma {
+  display:none;
+}
+
+
+.settings-btn {
+  padding: 10px;
+}
+#exit-karma-btn {
+  position: absolute;
+  top: 35px;
+  left: 25px;
+}
+#exit-viewTag-btn {
+  position: absolute;
+  top: 35px;
+  left: 25px;
+}
+
+
+.display-karma-settings {
+  transition: transform 800ms;
+  -moz-transition: transform 800ms;
+  -webkit-transition: transform 800ms;
+  -o-transition: transform 800ms;
+  -ms-transition: transform 800ms;
+  transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+}
+.hide-karma-settings {
+  transition: transform 800ms;
+  -moz-transition: transform 800ms;
+  -webkit-transition: transform 800ms;
+  -o-transition: transform 800ms;
+  -ms-transition: transform 800ms;
+  transform: translate(0, -100%);
+  -moz-transform: translate(0, -100%);
+  -webkit-transform: translate(0, -100%);
+  -o-transform: translate(0, -100%);
+  -ms-transform: translate(0, -100%);
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="83px" height="83px" viewBox="0 0 83 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>atmoPeople</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0.2" y="0.2" width="60.6" height="60.6"></rect>
+        <rect id="path-4" x="0.2" y="0.2" width="60.6" height="60.6"></rect>
+        <rect id="path-6" x="0.2" y="0.2" width="60.6" height="60.6"></rect>
+        <rect id="path-8" x="0.2" y="0.2" width="60.6" height="60.6"></rect>
+    </defs>
+    <g id="Branding-Board" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="atmoPeople" sketch:type="MSLayerGroup" transform="translate(4.000000, 2.000000)">
+            <circle id="btn_x-copy-2" fill="#FFFFFF" filter="url(#filter-1)" sketch:type="MSShapeGroup" cx="37.5" cy="37.5" r="37.5"></circle>
+            <g id="Group" transform="translate(7.000000, 7.000000)">
+                <mask id="mask-3" sketch:name="SVGID_28_" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="SVGID_28_"></g>
+                <path d="M30.5,59.7 C14.4,59.7 1.3,46.6 1.3,30.5 C1.3,14.4 14.4,1.3 30.5,1.3 C46.6,1.3 59.7,14.4 59.7,30.5 C59.7,46.6 46.6,59.7 30.5,59.7 L30.5,59.7 Z M30.5,2.3 C14.9,2.3 2.3,14.9 2.3,30.5 C2.3,46.1 14.9,58.7 30.5,58.7 C46.1,58.7 58.7,46 58.7,30.5 C58.7,15 46,2.3 30.5,2.3 L30.5,2.3 Z" id="Shape" fill="#353535" sketch:type="MSShapeGroup" mask="url(#mask-3)"></path>
+                <mask id="mask-5" sketch:name="SVGID_28_" fill="white">
+                    <use xlink:href="#path-4"></use>
+                </mask>
+                <g id="SVGID_28_"></g>
+                <path d="M30.5,35.3 C24.7,35.3 20.9,34.6 16.1,33.7 C15,33.5 12.9,33.7 12.9,36.9 C12.9,43.3 20.2,51.3 30.4,51.3 C40.6,51.3 47.9,43.3 47.9,36.9 C47.9,33.7 45.8,33.5 44.7,33.7 C40.1,34.6 36.3,35.3 30.5,35.3" id="path28_21_" fill="#353535" sketch:type="MSShapeGroup" mask="url(#mask-5)"></path>
+                <mask id="mask-7" sketch:name="SVGID_28_" fill="white">
+                    <use xlink:href="#path-6"></use>
+                </mask>
+                <g id="SVGID_28_"></g>
+                <path d="M17.7,22.5 C17.7,22.5 17.7,19.3 20.9,19.3 C24.1,19.3 24.1,22.5 24.1,22.5 L24.1,25.7 C24.1,25.7 24.1,28.9 20.9,28.9 C17.7,28.9 17.7,25.7 17.7,25.7 L17.7,22.5 L17.7,22.5 Z" id="path32_15_" fill="#353535" sketch:type="MSShapeGroup" mask="url(#mask-7)"></path>
+                <mask id="mask-9" sketch:name="SVGID_28_" fill="white">
+                    <use xlink:href="#path-8"></use>
+                </mask>
+                <g id="SVGID_28_"></g>
+                <path d="M36.9,22.5 C36.9,22.5 36.9,19.3 40.1,19.3 C43.3,19.3 43.3,22.5 43.3,22.5 L43.3,25.7 C43.3,25.7 43.3,28.9 40.1,28.9 C36.9,28.9 36.9,25.7 36.9,25.7 L36.9,22.5 L36.9,22.5 Z" id="path36_9_" fill="#353535" sketch:type="MSShapeGroup" mask="url(#mask-9)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

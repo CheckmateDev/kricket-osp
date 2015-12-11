@@ -1,0 +1,7 @@
+com.mbppower.camerapreview@https://github.com/lvelours/CordovaCameraPreview.git#2ffd99f165abe0476c2ea5e0dbdcaf05b32d41e2
+com.xmartlabs.cordova.market@https://github.com/xmartlabs/cordova-plugin-market.git#ec0bb60c24ec794cec1558ae1429c80e6b46e003
+cordova-plugin-file@3.0.0
+cordova-plugin-geolocation@0.3.12
+cordova-plugin-inappbrowser@0.6.0
+cordova-plugin-screen-orientation@1.4.0
+nl.x-services.plugins.socialsharing@5.0.7

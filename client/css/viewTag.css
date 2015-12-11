@@ -1,0 +1,417 @@
+.comment {
+  color: white;
+}
+.comment-plus, .up-vote, .down-vote {
+  width: 30px;
+}
+.tag-emoji {
+  position: absolute;
+  color: #151515;
+  font-size: 1.2em;
+  top: calc(50% - 45%);
+  left: calc(50% - 150px);
+  z-index: 9002;
+  min-height: 100px;
+  width: 300px;
+  margin: auto auto;
+  /* Rectangle 1: */
+  background: rgba(255, 255, 255, 1);
+}
+.tag-emoji-content {
+  position: relative;
+  height: 100%;
+  text-align: center;
+  background: rgba(255, 255, 255, .8);
+  overflow: hidden;
+}
+#indivdual-counter {
+  top: 10px;
+  z-index: 100;
+}
+.btn-viewTag {
+  height: 50px;
+  line-height: 50px;
+  color: #2E2F33;
+  cursor: pointer;
+  float: right;
+  position: relative;
+  z-index: 100;
+  padding-right: 5%;
+  padding-bottom: 10px;
+}
+.btn-viewTag img {
+  padding-bottom: 10px;
+}
+.btn-viewTag-bototm {
+  max-width: 100%;
+  display: inline-block;
+}
+#btn_shuffle {
+  top: 15px;
+  right: 15px;
+  max-height: 35px;
+  position: absolute;
+}
+.big {
+  height: 100%;
+  width: calc(100% - 65px);
+  top: 0px;
+  left: 0px;
+}
+.changeSelectedEmoji, .commentSelectedEmoji>img {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  z-index: 5;
+}
+.tag-emoji-header>img {
+  width: 100px;
+  margin: 60px 0 -15px;
+}
+.tag-emoji-header {
+  /*position: absolute;
+	height: 200px;*/
+  background-color: #fff;
+  width: 100%;
+}
+.tag-emoji.big>.tag-emoji-content>.tag-emoji-view-comments {
+  display: none;
+}
+.tag-emoji-vibe {
+  /*background-color: rgba(35,169,110,1);*/
+  /*border-top: 2px solid #23A96E;*/
+  /*border-bottom: 2px solid #23A96E;*/
+  min-height: 50px;
+  padding: 10px;
+  /* This ice cream place is so delicious! Wish : */
+  font-family: 'OpenSans';
+  font-size: 1em;
+  color: #9D9D9D;
+  line-height: 35px;
+}
+.tag-emoji-vibe-text {
+  margin: auto;
+}
+.tag-emoji-view-list-of-comments {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  padding-top: calc(100vh - 105px);
+  margin-top: 40px;
+
+  overflow: scroll;
+
+  -webkit-transform: translateZ(0px);
+  -webkit-transform: translate3d(0,0,0);
+  -webkit-perspective: 1000;
+
+
+
+}
+.tag-emoji-view-list-of-comments.without-keyboard.photo-comments {
+  height: calc(100% - 95px);
+  z-index: 2;
+}
+.tag-emoji-view-list-of-comments.without-keyboard.emoji-comments {
+  height: calc(100% - 295px);
+  /*margin-top:200px;*/
+}
+.tag-emoji-view-list-of-comments.with-keyboard.photo-comments {
+  height: calc(100% - 170px);
+}
+.tag-emoji-view-list-of-comments.with-keyboard.emoji-comments {
+  height: calc(100% - 170px);
+}
+.tag-emoji.big>.tag-emoji-content>.tag-emoji-view-list-of-comments {
+  display: block;
+}
+.tag-emoji>.arrow_box, .tag-emoji>.list-of-comments>.comment {
+  top: 10px;
+  left: -5px;
+}
+.tag-emoji-action-bar {
+  display: none;
+  height: 65px;
+  width: 100%;
+  padding: 10px 0px;
+  background-color: #151515;
+  position: absolute;
+  bottom: 0px;
+  opacity: 1;
+  z-index: 5;
+}
+.tag-emoji-action-bar svg {
+  position: absolute;
+  left: -10px;
+  z-index: 100;
+}
+#newComment {
+  /* Rectangle 28: */
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.50);
+  border-radius: 100px;
+  float: left;
+  left: 15px;
+  margin-top: 5px;
+}
+.tag-emoji-action-bar>img {
+  width: 50px;
+  background-color: none;
+  display: inline-block;
+}
+.tag-emoji.big>.tag-emoji-content>.tag-emoji-action-bar {
+  display: block;
+}
+.tag-emoji-action-bar>#addComment {
+  float: right;
+  right: 5px;
+  position: absolute;
+  padding: 10px;
+}
+div.tellYourMind.active {
+  margin-bottom: 0px;
+  display: inline-block;
+  left: -5px;
+}
+.tag-emoji-action-bar>.backToTag {
+  left: 10px;
+  position: absolute;
+  padding: 10px;
+  z-index: 1000;
+}
+.tag-emoji-action-bar>.backToTag>img {
+  width: 50px;
+  position: relative;
+  padding: 10px;
+}
+.no-emoji {
+  color: #616161;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.tag-emoji-comment {
+  color: #9D9D9D;
+  border-bottom: 1px solid #60A8FD;
+  text-align: left;
+  text-color: blue;
+  font-family: OpenSans;
+  font-size: 11pt;
+  -webkit-animation-duration: .4s;
+  /*-webkit-animation-delay: .1s;*/
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-duration: .4s;
+  /*-moz-animation-delay: .1s;*/
+  -moz-animation-iteration-count: 1;
+	background-color: rgba(0,0,0,0.5);
+	color:#fff;
+}
+.tag-emoji-comment:nth-child(odd) {
+  color: #9D9D9D;
+  border-bottom: 1px solid #60A8FD;
+  text-align: left;
+  text-color: blue;
+  font-family: OpenSans;
+  font-size: 11pt;
+	background-color: (0,0,0,0.5);
+	color:#fff;
+}
+.tag-emoji-comment>img {
+  width: 40px;
+  height: 40px;
+  padding: 0px 5px;
+  float: left;
+}
+.tag-emoji-comment>span {
+  position: relative;
+  line-height: 20px;
+  padding-left: 40px;
+  text-overflow: ellipsis;
+  width: calc(100% - 40px);
+  display: block;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  word-wrap: break-word;
+  text-align: center;
+}
+.tag-emoji>.comment, .tag-emoji>.list-of-comments>.comment {
+  margin-top: 10px;
+  /*color: #222;*/
+}
+
+/* Hide default leaflet popup box */
+
+.leaflet-popup-content-wrapper {
+  background: none !important;
+  box-shadow: none !important;
+}
+.leaflet-popup-tip {
+  border-top: none !important;
+}
+.leaflet-popup-content {
+  height: 0px;
+}
+div#tellTheWorld {
+  display: inline;
+}
+div.editComment {
+  display: inline;
+}
+div.editComment>input {
+  color: black;
+  /* color to write comments */
+}
+
+/* ok */
+
+
+/* ok */
+
+.commentSelectedEmoji {
+  left: 5px;
+  width: 100%;
+  line-height: 40px;
+  margin-left: 5px;
+}
+.commentSelectedEmoji>.backToTag {
+  left: 0px;
+  position: absolute;
+}
+.commentSelectedEmoji>.backToTag>img {
+  width: 40px;
+}
+.list-of-comments {
+  max-height: 80px;
+  /* you can tune here for the max height of messages list */
+  overflow-y: auto;
+  width: 305px;
+  left: -5px;
+  position: relative;
+  padding-left: 5px;
+  width: 100%;
+  height: 100vh;
+  -webkit-overflow-scrolling: touch;
+}
+.list-of-comments::-webkit-scrollbar {
+  width: 0px;
+}
+#tellTheWorld > img {
+  max-height: 30px;
+  padding-left: 30px;
+  float: right;
+  right: 15px;
+}
+.btnTellYouMind {
+  margin-left: 0px;
+  padding-bottom: 0px;
+  position: relative;
+  bottom: 0px;
+  padding-top: 0px;
+  top: 12px;
+}
+.changeSelectedEmoji {
+  left: 55px;
+  float: left;
+  font-size: 1.5em;
+}
+.svg-emoji-viewTag {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* photo icon */
+
+.svg-photo {
+  width: 47px;
+  height: 47px;
+  background: url(/svg/map/photo.svg) no-repeat;
+  background-size: 47.5px 47.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#viewPhoto {
+  position: relative;
+  left: 0;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+#viewPhoto>img {}
+.tag-emoji.big #viewPhoto>img {
+  width: 100%;
+}
+.tag-emoji.big #viewPhoto {
+  height: 100%;
+}
+.btn-share {
+  position: relative;
+  /*opacity: 0.6;*/
+  /*width: 50px;
+	height: 50px;*/
+  padding-bottom: 10px;
+  float: left;
+  padding-left: 10px;
+}
+.div-love-share-button {
+  position: relative;
+  z-index: 3;
+}
+.viewtag-counter {
+  z-index: 2;
+  color: #3E4649;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  top: 15px;
+  font-size: 18pt;
+  padding-top: 15px;
+}
+.btn-viewTag-bototm {
+  display: inline-block;
+  float: left;
+}
+.time_counter_viewTag {
+  color: #9FA3A9;
+  font-size: 15px;
+  float: right;
+  padding-right: 8px;
+  padding-top: 8px;
+}
+.love-container {
+  display: inline-block;
+  margin-left: 10px;
+}
+.lovedBy-counter {
+  display: inline-block;
+  position: relative;
+  padding: 7px 10px;
+  color: white;
+  background-color: #9D9D9D;
+  font-size: 9px;
+  line-height: initial;
+  border-radius: 500px;
+  border: white 1px solid;
+  right: 10px;
+}
+.lovedBy-counter.loved {
+  background: rgb(31, 195, 123);
+}
+.alert-link {
+  top: 10px;
+  position: absolute;
+  left: 10px;
+  z-index: 1000;
+}
+.emoji-viewTag-style {
+  margin-top: 60px;
+}
+
+.view-comments-arrow{
+  margin-top:-45px;
+}
+.view-comments-arrow > i{
+  font-size: 20pt;
+}

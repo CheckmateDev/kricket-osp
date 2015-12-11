@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="20px" viewBox="0 0 28 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12005) - http://www.bohemiancoding.com/sketch -->
+    <title>Youtube</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="More-Menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="About" sketch:type="MSArtboardGroup" transform="translate(-150.000000, -308.000000)" fill="#FFFFFF">
+            <path d="M172.372133,308.411411 L155.86273,308.411411 C153.117041,308.411411 150.89157,310.636883 150.89157,313.382572 L150.89157,322.838182 C150.89157,325.583871 153.117041,327.809342 155.86273,327.809342 L172.372133,327.809342 C175.117822,327.809342 177.343294,325.583871 177.343294,322.838182 L177.343294,313.382572 C177.343294,310.636883 175.117822,308.411411 172.372133,308.411411 L172.372133,308.411411 Z M161.472259,322.518998 L161.472259,314.58348 L167.644328,318.110377 L161.472259,322.518998 L161.472259,322.518998 Z" id="Youtube" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
