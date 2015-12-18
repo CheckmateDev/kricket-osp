@@ -1,7 +1,10 @@
 /*
 *   umap.js
-*   Import of umap datas (deactivated for now) to import datas
+*   Import of umap datas (only refugee camps for now)
+*   From map http://umap.openstreetmap.fr/en/map/refugee-crisis-balkans-and-central-europe_55091#6/45.058/17.886
 */
+
+// 
 
 var propertyEmojis =[{
   umap : ["food_distribution","mobile kitchen"],
@@ -280,15 +283,27 @@ function updateOrInsertIntoKricketFromUmap(urls){
 
   urls.forEach(function(url,index){
 
+    var result;
 
-    result = HTTP.get(url);
+    try{
+      result = HTTP.get(url);
+    }catch(Exception){
+      console.log("Impossible to reach url : "+url);
+      return;
+    }
+    
+
     var descriptions=[];
     var social_facilities=[];
 
   //console.log("result.data : "+result.data);
-  jsonData = result.data;
+  
 
-  if (result.data && jsonData.features){
+  if (result && result.data && result.data.features){
+    console.log("Updating from url : "+ url);
+    
+    jsonData = result.data;
+
     jsonData.features.forEach(function(feature,index){
 
       if (feature && feature.properties && feature.properties.id){
@@ -320,7 +335,7 @@ function updateOrInsertIntoKricketFromUmap(urls){
               Atmos.insert({
                 latlng : { lat:feature.geometry.coordinates[1],lng:feature.geometry.coordinates[0]},
                 createdUserId: "0",
-                icon: "01_house",
+                icon: "02_tent",
                 category: "refugee",
                 vibe: vibe,
                 createdUserName: "umap import",
@@ -343,7 +358,7 @@ function updateOrInsertIntoKricketFromUmap(urls){
 
               // then just properties on coordinates
             }
-            managePropertiesOfTag(feature);
+            //managePropertiesOfTag(feature);
             break;
 
             case "asylum centre":
@@ -363,18 +378,18 @@ function updateOrInsertIntoKricketFromUmap(urls){
           break;
         }
       }else{
-        console.error("Feature properties are not there");
+        // Feature properties are not there on this item;
         return;
       }
     });
 
 }
 else{
-  console.error("Error json data not there");
+  console.error("Error json data not there for url : " + url);
 }
 
-console.log("Facilities in url : " + url + " : " + JSON.stringify(social_facilities));
-console.log("Descriptions in url : " + url + " : " + JSON.stringify(descriptions));
+// console.log("Facilities in url : " + url + " : " + JSON.stringify(social_facilities));
+// console.log("Descriptions in url : " + url + " : " + JSON.stringify(descriptions));
 
 });
 
@@ -385,23 +400,22 @@ removeUmapTagsNotUsed(nodeIds);
 }
 
 
-
 // Execution
 
-//updateOrInsertIntoKricketFromUmap(["http://umap.openstreetmap.fr/en/datalayer/128186/","http://umap.openstreetmap.fr/en/datalayer/125665/","http://umap.openstreetmap.fr/en/datalayer/123627/","http://umap.openstreetmap.fr/en/datalayer/123811/"]);
 
 
-// // // Refering to https://github.com/percolatestudio/meteor-synced-cron
-// SyncedCron.add({
-//   name: 'Import UMAP datas',
-//   schedule: function(parser) {
-//     return parser.text('every 12 hours');
-//   }, 
-//   job: function() {
-//console.log("Import UMAP datas running");
 
+// Refering to https://github.com/percolatestudio/meteor-synced-cron
+SyncedCron.add({
+  name: 'Import UMAP datas',
+  schedule: function(parser) {
+    return parser.text('every 12 hours');
+  }, 
+  job: function() {
+console.log("Import UMAP datas running");
+updateOrInsertIntoKricketFromUmap(["http://umap.openstreetmap.fr/en/datalayer/128186/","http://umap.openstreetmap.fr/en/datalayer/123627/","http://umap.openstreetmap.fr/en/datalayer/123811/"]);
 
-//   }
-// });
+  }
+});
 
-// SyncedCron.start();
+SyncedCron.start();
